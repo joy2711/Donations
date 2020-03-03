@@ -49,6 +49,7 @@ p {
 }
 
 #ContactUs {
+    background-color: #333;
     text-align: center;
     text-transform: uppercase;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
@@ -56,4 +57,16 @@ p {
     padding-top: 100px;
     font-size: 30px;
     font-weight: bolder;
+}
+img { max-width: 100%; height: auto; }
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
 }
