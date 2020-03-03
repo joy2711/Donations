@@ -1,0 +1,54 @@
+.body {
+    margin: auto;
+    background-color: rgb(11, 133, 240);
+}
+
+.container {
+    max-width: 100%;
+    margin: 0px auto;
+    padding: 0;
+    right: 0;
+    left: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 40px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: medium;
+}
+
+#ContactUs {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    color: rgb(22, 21, 21);
+    padding-top: 100px;
+    font-size: 30px;
+    font-weight: bolder;
+}
