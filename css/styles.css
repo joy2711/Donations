@@ -43,6 +43,11 @@ p {
     font-size: medium;
 }
 
+#important{
+    text-align: center;
+    font-weight: bolder;
+}
+
 #ContactUs {
     text-align: center;
     text-transform: uppercase;
