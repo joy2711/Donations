@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script
+ src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+ </script>
+ <script src="js/scripts.js" charset="utf-8"></script>
+ <script src="js/main.js" charset="utf-8"></script>
+  </head>
+  <body>
+
+    <div class="container" id="donation">
+
+        <h3>donation</h3>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="content">
+              <img src="images/donation/clothes.jpeg"  class="image" style="width:100%">
+                <div class="container">
+                  <!-- Trigger/Open The Modal -->
+                  <button id="clothesBtn">donate clothes</button>
+                  <!-- The Modal -->
+                  <div id="clothesModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <div class="donations" id="donate">
+                        <div class="container">
+                          <h1>CLOTHES DONATION</h1>
+                          <label for="clothes">type of clothes:</label>
+                          <select class="custom-select custom-select-md mb-3" id="clothesType" required>
+                            <option value="shirts">shirts / blouses</option>
+                            <option value="shorts">shorts / trousers </option>
+                            <option value="skirts">skirts / dresses</option>
+                            <option value="allClothes">all of the above</option>
+                          </select>
+                          <label for="number">Number of whatever being donated</label>
+                          <input type="number" class="form-control" id="clothesNumber" placeholder="Number" min="1" required> <br>
+                          <label>Select age range</label>
+                          <select class="custom-select custom-select-md mb-3" id="clothesAge" required>
+                              <option value="clothesAge1">infants</option>
+                              <option value="clothesAge2">children</option>
+                              <option value="clothesAge3">teenagers</option>
+                              <option value="allAgeClothes">all of the above</option>
+                          </select>
+                          <p>date expected :</p>
+                          <input type="date"> <br> <br>
+                        </form>
+                        <a href="#summary"><button type="submit" class="btn btn-success checkout" id="clothesDonate">donate</button></a><br><br>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-4">
+              <div class="content">
+                <img src="images/donation/food.jpeg"  class="image"  style="width:100%">
+                <div class="container">
+                  <!-- Trigger/Open The Modal -->
+                  <button id="foodBtn">donate food</button>
+                  <!-- The Modal -->
+                  <div id="foodModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <div class="container">
+                        <h1>FOOD DONATION</h1>
+                        <label for="foodStuff">type of FOOD:</label>
+                        <select class="custom-select custom-select-md mb-3" id="food" required>
+                          <option value="flour">flour</option>
+                          <option value="cereals">cereals </option>
+                          <option value="meat">beef / chicken / pork </option>
+                          <option value="milk">milk </option>
+                          <option value="water"> water </option>
+                          <option value="sugar">sugar</option>
+                          <option value="allFood">all of the above</option>
+                        </select>
+                        <label for="number">KG of whatever being donated</label>
+                        <input type="number" class="form-control" id="number" placeholder="Number" min="1" required> <br>
+                        <label>Select something</label>
+                        <select class="custom-select custom-select-md mb-3" id="something1" required>
+                          <option value="four">four</option>
+                          <option value="five">five</option>
+                          <option value="six">six</option>
+                        </select>
+
+                        <p>date expected :</p>
+                        <input type="date"> <br> <br>
+                      </form>
+                      <a href="#summary"><button type="submit" class="btn btn-success checkout" id="foodDonate">donate</button></a><br><br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="content">
+              <img src="images/donation/school.jpg"  class="image"  style="width:100%">
+              <div class="container">
+                <!-- Trigger/Open The Modal -->
+                <button id="schoolBtn">donate school supplies</button>
+                <!-- The Modal -->
+                <div id="schoolModal" class="modal">
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <div class="container">
+                      <h1>SCHOOL SUPPLIES DONATION</h1>
+                      <label for="schoolSupplies">type of school supplies:</label>
+                        <select class="custom-select custom-select-md mb-3" id="school" required>
+                          <option value="books">exercise books</option>
+                          <option value="stationery">stationery </option>
+                          <option value="textbooks">text books</option>
+                          <option value="allSchool">all of the above</option>
+                        </select>
+                        <label for="number">Number of whatever being donated</label>
+                        <input type="number" class="form-control" id="number" placeholder="Number" min="1" required> <br>
+                        <label>Select something</label>
+                        <select class="custom-select custom-select-md mb-3" id="something1" required>
+                            <option value="four">four</option>
+                            <option value="five">five</option>
+                            <option value="six">six</option>
+                        </select>
+                        <p>date expected :</p>
+                        <input type="date"> <br> <br>
+                      </form>
+                      <a href="#summary"><button type="submit" class="btn btn-success checkout" id="schoolDonate">donate</button></a><br><br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="content">
+              <img src="images/donation/toys.jpeg"  class="image"  style="width:100%">
+              <div class="container">
+                <!-- Trigger/Open The Modal -->
+                <button id="toysBtn">donate toys</button>
+                <!-- The Modal -->
+                <div id="toysModal" class="modal">
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <div class="container">
+                      <h1>toys DONATION</h1>
+                      <label for="schoolSupplies">age range of toys</label>
+                        <select class="custom-select custom-select-md mb-3" id="toys" required>
+                          <option value="toyAge1">1 - 3 years</option>
+                          <option value="toyAge2">4 - 7 years </option>
+                          <option value="toyAge3">8 - 12 years</option>
+                          <option value="allToys">all of the above</option>
+                        </select>
+                        <label for="number">Number of whatever being donated</label>
+                        <input type="number" class="form-control" id="number" placeholder="Number" min="1" required> <br>
+                        <label>Select something</label>
+                        <select class="custom-select custom-select-md mb-3" id="something1" required>
+                            <option value="four">four</option>
+                            <option value="five">five</option>
+                            <option value="six">six</option>
+                        </select>
+                        <p>date expected :</p>
+                        <input type="date"> <br> <br>
+                      </form>
+                      <a href="#summary"><button type="submit" class="btn btn-success checkout" id="toysDonate">donate</button></a><br><br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+          <div class="content">
+            <img src="images/donation/blankets.jpg"  class="image"  style="width:100%">
+            <div class="container">
+              <!-- Trigger/Open The Modal -->
+              <button id="blanketsBtn">donate blankets</button>
+              <!-- The Modal -->
+              <div id="blanketsModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <div class="container">
+                    <h1>blankets DONATION</h1>
+                    <label for="schoolSupplies">type of blankets</label>
+                      <select class="custom-select custom-select-md mb-3" id="blankets" required>
+                        <option value="duvet">duvet</option>
+                        <option value="fleece">fleece blankets</option>
+                        <option value="woven">woven blankets</option>
+                        <option value="allBlankets">all of the above</option>
+                      </select>
+                      <label for="number">Number of whatever being donated</label>
+                      <input type="number" class="form-control" id="number" placeholder="Number" min="1" required> <br>
+                      <label>Select something</label>
+                      <select class="custom-select custom-select-md mb-3" id="something1" required>
+                          <option value="four">four</option>
+                          <option value="five">five</option>
+                          <option value="six">six</option>
+                      </select>
+                      <p>date expected :</p>
+                      <input type="date"> <br> <br>
+                    </form>
+                    <a href="#summary"><button type="submit" class="btn btn-success checkout" id="blanketDonate">donate</button></a><br><br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="content">
+            <img src="images/donation/hygiene.jpg"  class="image"  style="width:100%">
+            <div class="container">
+              <!-- Trigger/Open The Modal -->
+              <button id="hygieneBtn">donate hygiene Supplies</button>
+              <!-- The Modal -->
+              <div id="hygieneModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <div class="container">
+                    <h1>hygiene Supplies DONATION</h1>
+                    <label for="schoolSupplies">type of hygiene Supplies</label>
+                      <select class="custom-select custom-select-md mb-3" id="hygiene" required>
+                        <option value="towels">towels</option>
+                        <option value="tissues">tissues</option>
+                        <option value="toothbrush">toothbrush / toothpaste </option>
+                        <option value="combs">combs</option>
+                        <option value="soap">soap</option>
+                        <option value="allHygiene">all of the above</option>
+                      </select>
+                      <label for="number">Number of whatever being donated</label>
+                      <input type="number" class="form-control" id="number" placeholder="Number" min="1" required> <br>
+                      <label>Select something</label>
+                      <select class="custom-select custom-select-md mb-3" id="something1" required>
+                          <option value="four">four</option>
+                          <option value="five">five</option>
+                          <option value="six">six</option>
+                      </select>
+                      <p>date expected :</p>
+                      <input type="date"> <br> <br>
+                    </form>
+                    <a href="#summary"><button type="submit" class="btn btn-success checkout" id="hygieneDonate">donate</button></a><br><br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
