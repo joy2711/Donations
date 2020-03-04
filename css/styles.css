@@ -1,0 +1,149 @@
+.body {
+    margin: auto;
+    background-color: rgb(11, 133, 240);
+}
+
+.heading {
+    background-image: url("/images/africa.jpg");
+    background-size: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.future{
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+  
+}
+#aboutus{
+    text-align: center;
+}
+.mouse {
+  animation: bounce 3s infinite;
+  margin-left: 50%;
+  padding-top: 20%;
+}
+@keyframes bounce {
+  0%,
+  10%,
+  30%,
+  50%,
+  70%,
+  100% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-50px);
+  }
+  60% {
+    transform: translateY(-50px);
+  }
+}
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+    .nav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+.container {
+    max-width: 100%;
+    margin: 0px auto;
+    padding: 0;
+    right: 0;
+    left: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 40px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: medium;
+}
+
+#important {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#ContactUs {
+    background-color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    padding-top: 10px;
+    padding-left: 102px;
+    padding-right: 102px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.cont {
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media Queries: Tablet Landscape */
+
+@media screen and (max-width: 1060px) {
+    #primary {
+        width: 67%;
+    }
+    #secondary {
+        width: 30%;
+        margin-left: 3%;
+    }
+}
+
+/* Media Queries: Tabled Portrait */
+
+@media screen and (max-width: 768px) {
+    #primary {
+        width: 100%;
+    }
+    #secondary {
+        width: 100%;
+        margin: 0;
+        border: none;
+    }
+}
+#footer{
+    text-align: center;
+    font-family: fantasy;
+    background-color: darkgray;
+}
