@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.load{
+    animation: slide 2s;
+}
+.slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    animation: slide 30s infinite;
+}
+.content{
+ color: white;
+ width: 100%;
+ height: 100vh;
+background-color: rgba(0, 0, 0, 5px);  
+}
+.principal{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.principal h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.principal p{
+    font-size: 20px;
+}
+@keyframes slide {
+    0%{
+        background-image: url("../images/tire.jpg");
+    }
+    20%{
+        background-image: url("../images/click.jpg");
+    }
+    40%{
+        background-image: url("../images/smile.jpg");
+    }
+    60%{ 
+        background-image: url("../images/dull.jpeg");
+    }
+    80%{
+        background-image: url("../images/pexels.jpeg");
+    }
+    100%{
+        background-image: url("../images/childf.jpeg");
+    }
+}
