@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstraps.css">
+    <link rel="stylesheet" href="css/main.css">
     <script
  src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
  </script>
  <script src="js/scripts.js" charset="utf-8"></script>
- <script src="js/main.js" charset="utf-8"></script>
+ <script src="js/mains.js" charset="utf-8"></script>
   </head>
   <body>
 
@@ -18,10 +19,10 @@
         <div class="row">
           <div class="col-md-4">
             <div class="content">
-              <img src="images/donation/clothes.jpeg"  class="image" style="width:100%">
+              <img src="images/donation/clothes.jpeg"  width="350" height="300"> <br><br>
                 <div class="container">
                   <!-- Trigger/Open The Modal -->
-                  <button id="clothesBtn">donate clothes</button>
+                  <button class="btnDonate" id="clothesBtn">donate clothes</button><br><br><br>
                   <!-- The Modal -->
                   <div id="clothesModal" class="modal">
                     <!-- Modal content -->
@@ -31,23 +32,23 @@
                           <h1>CLOTHES DONATION</h1>
                           <label for="clothes">type of clothes:</label>
                           <select class="custom-select custom-select-md mb-3" id="clothesType" required>
-                            <option value="shirts">shirts / blouses</option>
-                            <option value="shorts">shorts / trousers </option>
-                            <option value="skirts">skirts / dresses</option>
-                            <option value="allClothes">all of the above</option>
+                            <option value="0">shirts / blouses</option>
+                            <option value="1">shorts / trousers </option>
+                            <option value="2">skirts / dresses</option>
+                            <option value="3">all of the above</option>
                           </select>
                           <label for="number">Number of whatever being donated</label>
                           <input type="number" class="form-control" id="clothesNumber" placeholder="Number" min="1" required> <br>
                           <label>Select age range</label>
                           <select class="custom-select custom-select-md mb-3" id="clothesAge" required>
-                              <option value="clothesAge1">infants</option>
-                              <option value="clothesAge2">children</option>
-                              <option value="clothesAge3">teenagers</option>
-                              <option value="allAgeClothes">all of the above</option>
+                              <option value="0">infants</option>
+                              <option value="1">children</option>
+                              <option value="2">teenagers</option>
+                              <option value="3">all of the above</option>
                           </select>
                           <p>date expected :</p>
                           <input type="date"> <br> <br>
-                        </form>
+
                         <a href="#summary"><button type="submit" class="btn btn-success checkout" id="clothesDonate">donate</button></a><br><br>
                       </div>
                     </div>
@@ -60,10 +61,10 @@
 
             <div class="col-md-4">
               <div class="content">
-                <img src="images/donation/food.jpeg"  class="image"  style="width:100%">
+                <img src="images/donation/food.jpeg"   width="350" height="300"><br><br>
                 <div class="container">
                   <!-- Trigger/Open The Modal -->
-                  <button id="foodBtn">donate food</button>
+                  <button class="btnDonate" id="foodBtn">donate food</button><br><br><br>
                   <!-- The Modal -->
                   <div id="foodModal" class="modal">
                     <!-- Modal content -->
@@ -91,7 +92,7 @@
 
                         <p>date expected :</p>
                         <input type="date"> <br> <br>
-                      </form>
+
                       <a href="#summary"><button type="submit" class="btn btn-success checkout" id="foodDonate">donate</button></a><br><br>
                     </div>
                   </div>
@@ -102,10 +103,10 @@
 
           <div class="col-md-4">
             <div class="content">
-              <img src="images/donation/school.jpg"  class="image"  style="width:100%">
+              <img src="images/donation/school.jpg"  class="image"   width="350" height="300"><br><br>
               <div class="container">
                 <!-- Trigger/Open The Modal -->
-                <button id="schoolBtn">donate school supplies</button>
+                <button class="btnDonate" id="schoolBtn">donate school supplies</button><br><br><br>
                 <!-- The Modal -->
                 <div id="schoolModal" class="modal">
                   <!-- Modal content -->
@@ -129,7 +130,7 @@
                         </select>
                         <p>date expected :</p>
                         <input type="date"> <br> <br>
-                      </form>
+
                       <a href="#summary"><button type="submit" class="btn btn-success checkout" id="schoolDonate">donate</button></a><br><br>
                     </div>
                   </div>
@@ -142,10 +143,10 @@
         <div class="row">
           <div class="col-md-4">
             <div class="content">
-              <img src="images/donation/toys.jpeg"  class="image"  style="width:100%">
+              <img src="images/donation/toys.jpeg"  class="image"   width="350" height="300"><br><br>
               <div class="container">
                 <!-- Trigger/Open The Modal -->
-                <button id="toysBtn">donate toys</button>
+                <button class="btnDonate" id="toysBtn">donate toys</button><br><br>
                 <!-- The Modal -->
                 <div id="toysModal" class="modal">
                   <!-- Modal content -->
@@ -169,7 +170,7 @@
                         </select>
                         <p>date expected :</p>
                         <input type="date"> <br> <br>
-                      </form>
+
                       <a href="#summary"><button type="submit" class="btn btn-success checkout" id="toysDonate">donate</button></a><br><br>
                     </div>
                   </div>
@@ -180,10 +181,10 @@
 
           <div class="col-md-4">
           <div class="content">
-            <img src="images/donation/blankets.jpg"  class="image"  style="width:100%">
+            <img src="images/donation/blankets.jpg"  class="image"   width="350" height="300"><br><br>
             <div class="container">
               <!-- Trigger/Open The Modal -->
-              <button id="blanketsBtn">donate blankets</button>
+              <button class="btnDonate" id="blanketsBtn">donate blankets</button><br><br>
               <!-- The Modal -->
               <div id="blanketsModal" class="modal">
                 <!-- Modal content -->
@@ -207,7 +208,7 @@
                       </select>
                       <p>date expected :</p>
                       <input type="date"> <br> <br>
-                    </form>
+
                     <a href="#summary"><button type="submit" class="btn btn-success checkout" id="blanketDonate">donate</button></a><br><br>
                   </div>
                 </div>
@@ -218,10 +219,10 @@
 
         <div class="col-md-4">
           <div class="content">
-            <img src="images/donation/hygiene.jpg"  class="image"  style="width:100%">
+            <img src="images/donation/hygiene.jpg"  class="image"   width="350" height="300"><br><br>
             <div class="container">
               <!-- Trigger/Open The Modal -->
-              <button id="hygieneBtn">donate hygiene Supplies</button>
+              <button class="btnDonate" id="hygieneBtn">donate hygiene Supplies</button><br><br><br>
               <!-- The Modal -->
               <div id="hygieneModal" class="modal">
                 <!-- Modal content -->
@@ -247,7 +248,7 @@
                       </select>
                       <p>date expected :</p>
                       <input type="date"> <br> <br>
-                    </form>
+
                     <a href="#summary"><button type="submit" class="btn btn-success checkout" id="hygieneDonate">donate</button></a><br><br>
                   </div>
                 </div>
@@ -257,5 +258,10 @@
         </div>
       </div>
     </div>
+
+    <script type="text/javascript">
+
+
+    </script>
   </body>
 </html>
