@@ -43,6 +43,11 @@ body {
   cursor: pointer;
 }
 
+.imgcontainer {
+        text-align: center;
+      }
+
+
 .btnDonate{
   color: white;
       background-color: yellowgreen;

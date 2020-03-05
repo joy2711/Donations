@@ -45,6 +45,7 @@ $(document).ready(function() {
     // When the user clicks the button, open the modal
     blanketsButton.onclick = function() {
       modalBlankets.style.display = "block";
+
     }
 
     // Get the food modal
@@ -57,11 +58,20 @@ $(document).ready(function() {
       modalHygiene.style.display = "block";
     }
 
+
+    var modalMpesa = document.getElementById("mpesaModal");
+    var mpesaButton = document.getElementById("mpesaBtn");
+
+    mpesaButton.onclick = function() {
+      modalMpesa.style.display = "block";
+    }
+
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function(event) {
       //alert(event.target)
       if(event.target == modalClothes) {
             modalClothes.style.display = "none";
+
          }
         if (event.target == modalSchool) {
             modalSchool.style.display = "none";
@@ -78,5 +88,10 @@ $(document).ready(function() {
       if(event.target == modalHygiene) {
             modalHygiene.style.display = "none";
                      }
+      if(event.target == modalMpesa) {
+              modalMpesa.style.display = "none";
+                  }
     }
+
+
   });

@@ -1,6 +1,7 @@
 $(document).ready(function() {
       $("#clothesDonate").click(function(){
         alert("clothes donation accepted");
+
       });
 
       $("#foodDonate").click(function(){
@@ -22,4 +23,9 @@ $(document).ready(function() {
       $("#hygieneDonate").click(function(){
         alert("hygiene supplies donation accepted");
       });
+
+      $("#mpesaDonate").click(function(){
+        alert("mpesa donation will be received");
+      });
+
     });
