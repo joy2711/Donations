@@ -1,5 +1,5 @@
 
-### PROJECT TITLE
+### DONATIONS
 Donations for upendo children's home.This is a website where one can offer to donate to Upendo children's home.Anything one would like to offer is acceptable
 ## Getting Started
 
@@ -50,11 +50,11 @@ please send and contact us for details on code of contact and the process of sub
 We use SemVer for versioning. For the versions available, see the tags on this repository.
 ## Authors
 
-Joy-(https://github.com/joy2711)
-Musau-(https://github.com/musau96)
-Vincent-(https://github.com/1king-ori)
-Johnson-(https://github.com/njonde)
-Crystal-(https://github.com/ivxxi)
+*Joy-(https://github.com/joy2711)
+*Musau-(https://github.com/musau96)
+*Vincent-(https://github.com/1king-ori)
+*Johnson-(https://github.com/njonde)
+*Crystal-(https://github.com/ivxxi)
 ## live link()
 
 ## Versioning
