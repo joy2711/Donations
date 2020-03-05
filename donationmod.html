@@ -15,7 +15,7 @@
 
     <div >
        <ul class="nav">
-           <li><a class="nav-link" href="#Home">Home</a></li>
+           <li><a class="nav-link" href="Donations.html">Home</a></li>
            <li><a class="nav-link" href="#aboutus">About us</a></li>
            <li><a class="nav-link" href="#ContactUs">Contact Us</a></li>
            </ul>
@@ -45,7 +45,7 @@
                             <option value="2">skirts / dresses</option>
                             <option value="3">all of the above</option>
                           </select>
-                          <label for="number">Number of whatever being donated</label>
+                          <label for="number">amount in number:</label>
                           <input type="number" class="form-control" id="clothesNumber" placeholder="Number" min="1" required> <br>
                           <label>Select age range</label>
                           <select class="custom-select custom-select-md mb-3" id="clothesAge" required>
@@ -89,13 +89,12 @@
                           <option value="sugar">sugar</option>
                           <option value="allFood">all of the above</option>
                         </select>
-                        <label for="number">KG of whatever being donated</label>
+                        <label for="number">amound in Kg</label>
                         <input type="number" class="form-control" id="number" placeholder="Number" min="1" required> <br>
-                        <label>Select something</label>
-                        <select class="custom-select custom-select-md mb-3" id="something1" required>
-                          <option value="four">four</option>
-                          <option value="five">five</option>
-                          <option value="six">six</option>
+                        <label>select</label>
+                        <select class="custom-select custom-select-md mb-3" id="foodType" required>
+                          <option value="0">raw</option>
+                          <option value="1">cooked</option>
                         </select>
 
                         <p>date expected :</p>
@@ -128,13 +127,13 @@
                           <option value="textbooks">text books</option>
                           <option value="allSchool">all of the above</option>
                         </select>
-                        <label for="number">Number of whatever being donated</label>
+                        <label for="number">Number being donated</label>
                         <input type="number" class="form-control" id="number" placeholder="Number" min="1" required> <br>
-                        <label>Select something</label>
+                        <label>school</label>
                         <select class="custom-select custom-select-md mb-3" id="something1" required>
-                            <option value="four">four</option>
-                            <option value="five">five</option>
-                            <option value="six">six</option>
+                            <option value="0">elementary</option>
+                            <option value="1">primary</option>
+                            <option value="2">high school</option>
                         </select>
                         <p>date expected :</p>
                         <input type="date"> <br> <br>
@@ -168,13 +167,13 @@
                           <option value="toyAge3">8 - 12 years</option>
                           <option value="allToys">all of the above</option>
                         </select>
-                        <label for="number">Number of whatever being donated</label>
+                        <label for="number">Number being donated</label>
                         <input type="number" class="form-control" id="number" placeholder="Number" min="1" required> <br>
-                        <label>Select something</label>
+                        <label>Size</label>
                         <select class="custom-select custom-select-md mb-3" id="something1" required>
-                            <option value="four">four</option>
-                            <option value="five">five</option>
-                            <option value="six">six</option>
+                            <option value="four">small</option>
+                            <option value="five">medium</option>
+                            <option value="six">large</option>
                         </select>
                         <p>date expected :</p>
                         <input type="date"> <br> <br>
@@ -206,13 +205,13 @@
                         <option value="woven">woven blankets</option>
                         <option value="allBlankets">all of the above</option>
                       </select>
-                      <label for="number">Number of whatever being donated</label>
+                      <label for="number">Number being donated</label>
                       <input type="number" class="form-control" id="number" placeholder="Number" min="1" required> <br>
-                      <label>Select something</label>
+                      <label>size :</label>
                       <select class="custom-select custom-select-md mb-3" id="something1" required>
-                          <option value="four">four</option>
-                          <option value="five">five</option>
-                          <option value="six">six</option>
+                          <option value="0">4 x 6</option>
+                          <option value="1">5 x 6</option>
+                          <option value="2">6 x 6</option>
                       </select>
                       <p>date expected :</p>
                       <input type="date"> <br> <br>
@@ -246,9 +245,9 @@
                         <option value="soap">soap</option>
                         <option value="allHygiene">all of the above</option>
                       </select>
-                      <label for="number">Number of whatever being donated</label>
+                      <label for="number">Number being donated</label>
                       <input type="number" class="form-control" id="number" placeholder="Number" min="1" required> <br>
-                      <label>Select something</label>
+                      <label>Select</label>
                       <select class="custom-select custom-select-md mb-3" id="something1" required>
                           <option value="four">four</option>
                           <option value="five">five</option>
