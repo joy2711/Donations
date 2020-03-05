@@ -1,32 +1,72 @@
-# DONATIONS
-#### Where you can offer to donate items to upendo childern's home., March 2020
-#### By **.Joy,Vincent,Musyoka Nzioka,Johnson,Crystal**
-## Description
-This is a childern's home website where one can offer to donate items to the children's home and have the items picked up from their location.
-## Technologies Used
-HTML, CSS, BOOTSTRAP, JAVASCRIPT, JAUERY
-## Support and contact details
-Incase of any questions or clarifications, you can reach us through email @ donations@gmail.com or call us +254778984328
-### License
-MIT License
 
-Copyright (c) [2020] [DONATIONS AT UPENDO]
+### PROJECT TITLE
+Donations for upendo children's home.This is a website where one can offer to donate to Upendo children's home.Anything one would like to offer is acceptable
+## Getting Started
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+### Prerequisites
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-Copyright (c) {2020} **Joy, Vincent,Johnson,Musyoka,Crystal**
+Google Chrome(https://www.google.com/chrome/) - download or your prefered browser
+VS Studio Code(https://code.visualstudio.com/)-download and install
+Download extension package-live server on you visualstudio
+
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+-clone the repository or download(https://github.com/joy2711/Donations.git)
+-Use the link to git clone on your terminal.
+-Run code to open the web on visual studio code 
+```
+-visit the internet
+-click the link on the site on the browser
+-page loads to display the website
+-click  the donation button to donate
+```
+## Behaviour Driven Development
+1. Display button for chosing the type of donations a user wants
+ -INPUT:type of donation
+ -INPUT:number of items to donate
+ -INPUT:select the age group you are donating to
+ -INPUT:date you will donate
+2.Display a contact form where you  can contact us
+ -Input name:user can input their name
+ -Input email-user can input their email 
+ -Input message-user inputs the message they want to pass to us.
+## Built With
+
+    
+Bootstrap-a styling library
+jQuery - JavaScript libary
+javaScript - JavaScript inteprative programming language
+HTML - Markup language
+CSS - Styling Language
+
+## Contributing
+
+please send and contact us for details on code of contact and the process of submitting pull requests. 
+
+We use SemVer for versioning. For the versions available, see the tags on this repository.
+## Authors
+
+Joy-(https://github.com/joy2711)
+Musau-(https://github.com/musau96)
+Vincent-(https://github.com/1king-ori)
+Johnson-(https://github.com/njonde)
+Crystal-(https://github.com/ivxxi)
+## live link()
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [https://github.com/joy2711/Donations] (https://github.com/joy2711/Donations). 
+License
+
+This project is licensed under the MIT License - see the (LICENSE.md)[license.md] file for details
+Acknowledgments
+
+    The tms; Barclay,Peter,Paul,Cynthia
+    Musau
+    Vincent
+    Crystal
+    Johnson
