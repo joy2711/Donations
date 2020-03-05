@@ -3,6 +3,7 @@
     background-color: rgb(11, 133, 240);
 }
 
+
 /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
     .nav a {
@@ -10,6 +11,7 @@
       width: 100%;
     }
   }
+
 .container {
     max-width: 100%;
     margin: 0px auto;
@@ -50,7 +52,9 @@ p {
     font-size: medium;
 }
 
+
 #important{
+
     text-align: center;
     font-weight: bolder;
     font-size: 20px;
@@ -61,6 +65,7 @@ p {
     text-align: center;
     text-transform: uppercase;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+
     color: rgb(22, 21, 21);
     padding-top: 100px;
     font-size: 30px;
@@ -77,4 +82,5 @@ img { max-width: 100%; height: auto; }
 @media screen and (max-width: 768px) {
     #primary { width:100%; }
     #secondary { width:100%; margin:0; border:none; }
+
 }
