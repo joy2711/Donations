@@ -55,7 +55,7 @@ We use SemVer for versioning. For the versions available, see the tags on this r
 * Vincent-https://github.com/1king-ori
 * Johnson-https://github.com/njonde
 * Crystal-https://github.com/ivxxi
-## live link()
+## live link(https://joy2711.github.io/Donations)
 
 ## Versioning
 
